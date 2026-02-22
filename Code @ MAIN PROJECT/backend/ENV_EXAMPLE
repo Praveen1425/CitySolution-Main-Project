@@ -1,0 +1,19 @@
+# ------------------------
+# CitySolution Backend - Environment Example
+# ------------------------
+
+# Server
+PORT=5001
+JWT_SECRET=replace-with-a-strong-secret
+
+# OpenAI (optional for /api/detect)
+OPENAI_API_KEY=sk-your-openai-key
+
+# Blockchain (Sepolia)
+# Required to enable on-chain recording during issue creation
+SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID
+PRIVATE_KEY=0xYOUR_PRIVATE_KEY # wallet that pays gas (fund with Sepolia ETH)
+CONTRACT_ADDR=0xYourDeployedIncidentRegistryAddress
+
+# IPFS via web3.storage (optional)
+WEB3_STORAGE_TOKEN=your-web3-storage-token
