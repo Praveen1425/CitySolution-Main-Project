@@ -1,0 +1,52 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "internalType": "uint256", "name": "id", "type": "uint256" },
+      { "indexed": false, "internalType": "bytes32", "name": "hash", "type": "bytes32" },
+      { "indexed": false, "internalType": "string", "name": "ipfsCID", "type": "string" },
+      { "indexed": true, "internalType": "address", "name": "reporter", "type": "address" },
+      { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" }
+    ],
+    "name": "IncidentRegistered",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "nextId",
+    "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "bytes32", "name": "_hash", "type": "bytes32" },
+      { "internalType": "string", "name": "_ipfsCID", "type": "string" },
+      { "internalType": "bytes32", "name": "_locationKey", "type": "bytes32" }
+    ],
+    "name": "registerIncident",
+    "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "id", "type": "uint256" }
+    ],
+    "name": "getIncidentHash",
+    "outputs": [ { "internalType": "bytes32", "name": "", "type": "bytes32" } ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "bytes32", "name": "locationKey", "type": "bytes32" }
+    ],
+    "name": "getIdByLocation",
+    "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
+
+

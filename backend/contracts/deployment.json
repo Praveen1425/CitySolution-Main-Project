@@ -1,0 +1,8 @@
+{
+  "contractAddress": "0x1234567890abcdef1234567890abcdef12345678",
+  "deployer": "0xabcdef1234567890abcdef1234567890abcdef12",
+  "network": "sepolia",
+  "deploymentTx": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcd",
+  "blockNumber": 1234567,
+  "timestamp": "2024-01-15T10:30:00.000Z"
+}
