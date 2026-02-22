@@ -5,7 +5,7 @@ The platform integrates **Blockchain, IPFS, and Web Technologies** to ensure tru
 
 ---
 
-## 📄 Research & Publications
+## 📄 [Research & Publications](https://github.com/Praveen1425/CitySolution-Main-Project/blob/main/Paper%20Publishing/Paper%20Published.pdf)
 
 📌 **Published Research Paper**
 https://github.com/Praveen1425/CitySolution-Main-Project/blob/main/Paper%20Publishing/Paper%20Published.pdf
@@ -150,6 +150,7 @@ This project is supported by a published research paper focusing on integrating 
 **Muccharla Praveen**
 
 B.Tech – CSE (AI & ML)
+
 Project: CitySolution – Smart Civic Reporting System
 
 ---
