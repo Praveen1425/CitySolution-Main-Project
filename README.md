@@ -147,7 +147,8 @@ This project is supported by a published research paper focusing on integrating 
 
 ## 👨‍💻 Author
 
-**Praveen Kumar**
+**Muccharla Praveen**
+
 B.Tech – CSE (AI & ML)
 Project: CitySolution – Smart Civic Reporting System
 
